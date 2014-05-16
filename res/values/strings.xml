@@ -1,6 +1,11 @@
 <resources>
 
+    <!-- Common features -->
     <string name="app_name">TodoList</string>
-    <string name="action_contact">Contact</string>
+
+    <!-- Menu stuff -->
+    <string name="menu_search">Search</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_contact">Contact</string>
 
 </resources>
