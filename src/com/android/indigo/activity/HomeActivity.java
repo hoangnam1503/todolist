@@ -31,6 +31,7 @@ public class HomeActivity extends FragmentActivityBase {
 		final int pageMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 4, getResources()
 				.getDisplayMetrics());
 		viewPager.setPageMargin(pageMargin);
+		viewPager.setCurrentItem(1);
 
 		slidingTab.setViewPager(viewPager);
 	}

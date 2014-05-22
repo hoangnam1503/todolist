@@ -7,5 +7,15 @@
     <string name="menu_search">Search</string>
     <string name="menu_info">Info</string>
     <string name="menu_contact">Contact</string>
+    
+    <!-- Listview elements -->
+    <string name="listview_expandable_text">Expandable list item No.%d</string>
 
+    <!-- Enhanced Listview element -->
+	<string name="elv_undo">Undo</string>
+	<string name="elv_undo_all">Undo All</string>
+	<string name="elv_item_deleted">Item deleted</string>
+	<string name="elv_n_items_deleted">%1$s items deleted</string>
+	
+    <string name="list_item_background">Sticky part of list item</string>
 </resources>

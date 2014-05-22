@@ -4,11 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
     
-    <ListView android:id="@+id/android:list"
+    <com.android.indigo.utility.EnhancedListView android:id="@+id/android:list"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#ffffff">
+        android:background="@color/listview_header_color"
+	    android:clipToPadding="false"
+	    android:divider="@null"
+	    android:dividerHeight="16dp"
+	    android:fadingEdge="none"
+	    android:padding="16dp"
+	    android:layout_marginTop="@dimen/padding_top"
+	    android:scrollbarStyle="outsideOverlay" >
         
-    </ListView>
+    </com.android.indigo.utility.EnhancedListView>
 </LinearLayout>
